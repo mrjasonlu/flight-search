@@ -1,0 +1,87 @@
+{
+  "flights": [{
+        "price": "193.50",
+        "code": "AI-202",
+        "origin": "Melbourne",
+        "destination": "Sydney",
+        "deptTime": "2015-12-21T07:00:00.000Z",
+        "arrTime": "2015-12-21T09:10:00.000Z"
+    }, {
+        "price": "201.00",
+        "code": "AI-202",
+        "origin": "Melbourne",
+        "destination": "Sydney",
+        "deptTime": "2015-12-21T10:00:00.000Z",
+        "arrTime": "2015-12-21T12:15:00.000Z"
+    }, {
+        "price": "201.00",
+        "code": "AI-202",
+        "origin": "Melbourne",
+        "destination": "Sydney",
+        "deptTime": "2015-12-21T20:00:00.000Z",
+        "arrTime": "2015-12-21T22:15:00.000Z"
+    }, {
+        "price": "235.50",
+        "code": "AI-205",
+        "origin": "Melbourne",
+        "destination": "Sunshine Coast",
+        "deptTime": "2015-12-21T13:40:00.000Z",
+        "arrTime": "2015-12-21T16:50:00.000Z"
+    }, {
+        "price": "273.00",
+        "code": "AI-205",
+        "origin": "Melbourne",
+        "destination": "Sunshine Coast",
+        "deptTime": "2015-12-21T07:00:00.000Z",
+        "arrTime": "2015-12-21T09:10:00.000Z"
+    }, {
+        "price": "273.00",
+        "code": "AI-205",
+        "origin": "Melbourne",
+        "destination": "Sunshine Coast",
+        "deptTime": "2015-12-21T20:00:00.000Z",
+        "arrTime": "2015-12-21T22:10:00.000Z"
+    }, {
+        "price": "189.00",
+        "code": "AI-202",
+        "origin": "Sunshine Coast",
+        "destination": "Melbourne",
+        "deptTime": "2015-12-21T07:00:00.000Z",
+        "arrTime": "2015-12-21T09:10:00.000Z"
+    }, {
+        "price": "180.50",
+        "code": "AI-202",
+        "origin": "Sunshine Coast",
+        "destination": "Melbourne",
+        "deptTime": "2015-12-21T07:00:00.000Z",
+        "arrTime": "2015-12-21T09:10:00.000Z"
+    }, {
+        "price": "180.50",
+        "code": "AI-202",
+        "origin": "Sunshine Coast",
+        "destination": "Melbourne",
+        "deptTime": "2015-12-21T20:00:00.000Z",
+        "arrTime": "2015-12-21T22:10:00.000Z"
+    }, {
+        "price": "190.00",
+        "code": "AI-201",
+        "origin": "Sydney",
+        "destination": "Melbourne",
+        "deptTime": "2015-12-21T07:00:00.000Z",
+        "arrTime": "2015-12-21T09:10:00.000Z"
+    }, {
+        "price": "199.50",
+        "code": "AI-201",
+        "origin": "Sydney",
+        "destination": "Melbourne",
+        "deptTime": "2015-12-21T07:00:00.000Z",
+        "arrTime": "2015-12-21T09:10:00.000Z"
+    }, {
+        "price": "199.50",
+        "code": "AI-201",
+        "origin": "Sydney",
+        "destination": "Melbourne",
+        "deptTime": "2015-12-21T20:00:00.000Z",
+        "arrTime": "2015-12-21T22:10:00.000Z"        
+    }]
+}
