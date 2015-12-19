@@ -5,15 +5,16 @@ var React = window.React = require('react'),
     mountNode = document.getElementById("app"),
     flightAPI = "./flights.json"
 
-    //grab property array from JSON data
+    //grab flight array from JSON data
     $.getJSON( flightAPI, {
       format: "json"
     }).done(function( json ) {
-          //on success, render Property Module
+          //on success, render Flight Module
           var FlightApp = React.createClass({
             render: function() {
               return (
                 <div>
+
                   <FlightModule flightData={json} />
                 </div>
               );
