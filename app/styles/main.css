@@ -169,3 +169,12 @@ body {
   display: block;
   margin-top: 25px;
 }
+
+.search-date {
+  float: right;
+  margin-top: -30px;
+}
+
+.back-to-results {
+  margin: 20px 0;
+}
