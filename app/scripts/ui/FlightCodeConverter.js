@@ -1,6 +1,6 @@
 var flightCodes = [{ city: "Melbourne", code: "MEL"},
                    { city: "Sydney", code: "SYD"},
-                   { city: "Sunshine Cost", code: "SSC"}
+                   { city: "Sunshine Coast", code: "SSC"}
                   ];
 
 var FlightCodeConverter = function(cityName) {

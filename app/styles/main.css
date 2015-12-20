@@ -69,7 +69,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 730px;
+    max-width: 980px;
   }
   /* Remove the padding we set earlier */
   .header,
@@ -122,4 +122,50 @@ body {
 .flight-item .logo {
   width: 100px;
   height: 60px;
+}
+
+.flight-summary span.sum-block {
+  display: block;
+}
+
+.flight-item {
+  clear: both;
+  overflow: hidden;
+  padding: 10px;
+  border: 1px solid #888;
+  margin-bottom: 10px;
+}
+
+.flight-item img {
+  float: left;
+}
+
+.flight-item .flight-summary {
+  float: left;
+  padding-left: 15px;
+}
+
+.flight-iten {
+  font-weight: bold;
+}
+
+.flight-cost {
+  float: left;
+  margin-right: 20px;
+}
+
+.flight-cost span.price {
+  margin-top: 30px;
+  font-size: 1.7em;
+  display: block;
+}
+
+.flight-price-control {
+  float: right;
+}
+
+.flight-price-control button {
+  border-radius: 10px;
+  display: block;
+  margin-top: 25px;
 }

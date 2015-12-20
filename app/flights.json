@@ -1,6 +1,6 @@
 {
   "flights": [{
-        "price": "193.50",
+        "price": "94.50",
         "code": "AI-202",
         "origin": "MEL",
         "destination": "SYD",
@@ -8,7 +8,7 @@
         "arrTime": "2015-12-21T02:10:00.000",
         "logo": "/images/logo1.jpg"
     }, {
-        "price": "201.00",
+        "price": "121.00",
         "code": "AI-203",
         "origin": "MEL",
         "destination": "SYD",
@@ -16,7 +16,7 @@
         "arrTime": "2015-12-21T05:15:00.000",
         "logo": "/images/logo1.jpg"
     }, {
-        "price": "201.00",
+        "price": "161.00",
         "code": "AI-204",
         "origin": "MEL",
         "destination": "SYD",
@@ -24,7 +24,7 @@
         "arrTime": "2015-12-21T14:15:00.000",
         "logo": "/images/logo1.jpg"
     }, {
-        "price": "235.50",
+        "price": "155.50",
         "code": "AI-205",
         "origin": "MEL",
         "destination": "SSC",
@@ -32,7 +32,7 @@
         "arrTime": "2015-12-21T02:50:00.000",
         "logo": "/images/logo1.jpg"
     }, {
-        "price": "273.00",
+        "price": "173.00",
         "code": "AI-205",
         "origin": "MEL",
         "destination": "SSC",
@@ -40,7 +40,7 @@
         "arrTime": "2015-12-21T09:10:00.000",
         "logo": "/images/logo1.jpg"
     }, {
-        "price": "273.00",
+        "price": "233.00",
         "code": "AI-205",
         "origin": "MEL",
         "destination": "SSC",
@@ -48,7 +48,7 @@
         "arrTime": "2015-12-21T12:10:00.000",
         "logo": "/images/logo1.jpg"
     }, {
-        "price": "189.00",
+        "price": "99.00",
         "code": "Z-202",
         "origin": "SSC",
         "destination": "MEL",
@@ -56,7 +56,7 @@
         "arrTime": "2015-12-21T02:10:00.000",
         "logo": "/images/logo2.jpg"
     }, {
-        "price": "180.50",
+        "price": "130.50",
         "code": "Z-202",
         "origin": "SSC",
         "destination": "MEL",
@@ -88,7 +88,7 @@
         "arrTime": "2015-12-21T07:10:00.000",
         "logo": "/images/logo1.jpg"
     }, {
-        "price": "199.50",
+        "price": "299.50",
         "code": "AI-201",
         "origin": "SYD",
         "destination": "MEL",

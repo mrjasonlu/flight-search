@@ -75,41 +75,6 @@ var FlightSearchBar = React.createClass({
                     </div>
                     <button className="btn btn-primary" id="ow-submit" onClick={this.handleOneWaySearch} name="ow-submit">Search</button>
               </div>
-              <div id="return">
-                  <form>
-                      <div className="form-group">
-                          <label htmlFor="r-flight-from">From:</label>
-                          <input className="form-control" ref="rFlightFrom" name="r-flight-from" type="text" />
-                      </div>
-                      <div className="form-group">
-                          <label htmlFor="r-flight-dest">Destination:</label>
-                          <input className="form-control" ref="rFlightDest" name="r-flight-dest" type="text" />
-                      </div>
-                      <div className="form-group">
-                          <label>Departure Date:</label>
-                          <DatePicker selected={this.state.deptDate} onChange={this.handleDeptDate} />
-                      </div>
-                      <div className="form-group">
-                          <label>Return Date:</label>
-                          <DatePicker selected={this.state.returnDate} onChange={this.handleReturnDate} />
-                      </div>
-                      <div className="form-group">
-                          <label htmlFor="r-passengers">Passengers:</label>
-                          <select className="form-control" ref="rPassengers" name="r-passengers" id="r-passengers">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
-                            </select>
-                      </div>
-                        <input className="btn btn-primary" type="submit" id="r-submit" onClick={this.handleReturnSearch} name="r-submit" />
-                  </form>
-              </div>
 
               <div className="price-filter">
                   <p>Refine Flight Search</p>
