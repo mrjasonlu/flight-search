@@ -3,6 +3,7 @@
 var React = require('react'),
     FlightSearchBar = require('./FlightSearchBar'),
     FlightListing = require('./FlightListing'),
+    FlightDetails = require('./FlightDetails'),
     FlightCodeConverter = require('./FlightCodeConverter');
 
 //flightData passed from app.js
@@ -12,11 +13,11 @@ var FlightModule = React.createClass({
   oneWaySearch: function(searchData){
       var fullFlightList = this.props.flightData.flights,
           searchDeptFullDate = new Date(searchData.deptDate),
-          searchDeptDate = searchDeptFullDate.getFullYear() + "-" + searchDeptFullDate.getMonth() + "-" + searchDeptFullDate.getDate();
+          searchDeptDate = searchDeptFullDate.getDate() + "-" + searchDeptFullDate.getMonth() + "-" + searchDeptFullDate.getFullYear();
       //go through full flight list and match user search criteria
       var filteredList = fullFlightList.filter( function(flight){
           var flightDeptFullDate = new Date(flight.deptTime),
-              flightDeptDate = flightDeptFullDate.getFullYear() + "-" + flightDeptFullDate.getMonth() + "-" + flightDeptFullDate.getDate();
+              flightDeptDate = flightDeptFullDate.getDate() + "-" + flightDeptFullDate.getMonth() + "-" + flightDeptFullDate.getFullYear();
           if(flight.origin == FlightCodeConverter(searchData.from) &&
              flight.destination == FlightCodeConverter(searchData.dest) &&
              flightDeptDate == searchDeptDate
@@ -29,12 +30,19 @@ var FlightModule = React.createClass({
       });
       this.setState({
         flightList: filteredList,
-        priceFiteredList: filteredList
+        priceFiteredList: filteredList,
+        deptDate: searchDeptDate,
+        showFlight: false
       });
 
   },
-  returnSearch: function(flightFrom, flightDest, deptDate, returnDate){
-
+  returnSearch: function(searchData){
+    //todo
+  },
+  backToSearch: function(){
+    this.setState({
+      showFlight: false
+    });
   },
   priceFilter: function(sliderData){
       this.setState({
@@ -56,8 +64,12 @@ var FlightModule = React.createClass({
       this.setState({
         priceFiteredList: priceFilteredFlights
       });
-
-
+  },
+  showFlightDetails: function(flightData, setShow){
+      this.setState({
+        flightDetail: flightData,
+        showFlight: setShow
+      });
   },
   getInitialState: function(){
       //set initial state
@@ -68,7 +80,10 @@ var FlightModule = React.createClass({
           depFlightList: null,
           returnFlightList: null,
           priceMin: 1,
-          priceMax: 1000
+          priceMax: 1000,
+          deptDate: null,
+          showFlight: false,
+          flightDetail: null
       }
   },
   render: function() {
@@ -76,7 +91,9 @@ var FlightModule = React.createClass({
     return (
       <div className="flight-module">
           <FlightSearchBar oneWaySearch={this.oneWaySearch} returnSearch={this.returnSearch} priceFilter={this.priceFilter} priceMin={this.state.priceMin} priceMax={this.state.priceMax} />
-          <FlightListing flightData={this.state.priceFiteredList} depflightData={this.state.depFlightList} returnFlightList={this.state.returnFlightList} />
+          {this.state.showFlight ? <FlightDetails flightDetail={this.state.flightDetail} flightDeptDate={this.state.deptDate} handleBack={this.backToSearch} />
+        : <FlightListing flightData={this.state.priceFiteredList} depflightData={this.state.depFlightList} returnFlightList={this.state.returnFlightList} searchDeptDate={this.state.deptDate} handleShowFlight={this.showFlightDetails} />
+          }
       </div>
     );
   }

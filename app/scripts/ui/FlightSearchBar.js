@@ -77,7 +77,7 @@ var FlightSearchBar = React.createClass({
               </div>
 
               <div className="price-filter">
-                  <p>Refine Flight Search</p>
+                  <h2>Refine Flight Search</h2>
                   <label htmlFor="amount">Price range:</label>
                   <p>${this.props.priceMin} - ${this.props.priceMax}</p>
                   <ReactSlider defaultValue={[0, 1000]} min={1} max={1000} onChange={this.handleSlider} withBars className="horizontal-slider" ref='priceFilter' />

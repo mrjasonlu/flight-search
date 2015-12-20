@@ -3,6 +3,9 @@
 var React = require('react');
 
 var FlightList = React.createClass({
+  handleShowFlight: function(){
+      this.props.handleShowFlight(this.props.flight, true);
+  },
   render: function() {
     var flight = this.props.flight,
         //time formatting for departure and arrival time in 12 hour
@@ -34,7 +37,7 @@ var FlightList = React.createClass({
             <div className="flight-cost">
                   <span className="price">${flight.price}</span>
             </div>
-            <button>Select this flight</button>
+            <button onClick={this.handleShowFlight}>Select this flight</button>
         </div>
 
 
