@@ -2,86 +2,98 @@
   "flights": [{
         "price": "193.50",
         "code": "AI-202",
-        "origin": "Melbourne",
-        "destination": "Sydney",
-        "deptTime": "2015-12-21T07:00:00.000Z",
-        "arrTime": "2015-12-21T09:10:00.000Z"
+        "origin": "MEL",
+        "destination": "SYD",
+        "deptTime": "2015-12-21T00:00:00.000",
+        "arrTime": "2015-12-21T02:10:00.000",
+        "logo": "/images/logo1.jpg"
     }, {
         "price": "201.00",
-        "code": "AI-202",
-        "origin": "Melbourne",
-        "destination": "Sydney",
-        "deptTime": "2015-12-21T10:00:00.000Z",
-        "arrTime": "2015-12-21T12:15:00.000Z"
+        "code": "AI-203",
+        "origin": "MEL",
+        "destination": "SYD",
+        "deptTime": "2015-12-21T03:00:00.000",
+        "arrTime": "2015-12-21T05:15:00.000",
+        "logo": "/images/logo1.jpg"
     }, {
         "price": "201.00",
-        "code": "AI-202",
-        "origin": "Melbourne",
-        "destination": "Sydney",
-        "deptTime": "2015-12-21T20:00:00.000Z",
-        "arrTime": "2015-12-21T22:15:00.000Z"
+        "code": "AI-204",
+        "origin": "MEL",
+        "destination": "SYD",
+        "deptTime": "2015-12-21T12:00:00.000",
+        "arrTime": "2015-12-21T14:15:00.000",
+        "logo": "/images/logo1.jpg"
     }, {
         "price": "235.50",
         "code": "AI-205",
-        "origin": "Melbourne",
-        "destination": "Sunshine Coast",
-        "deptTime": "2015-12-21T13:40:00.000Z",
-        "arrTime": "2015-12-21T16:50:00.000Z"
+        "origin": "MEL",
+        "destination": "SSC",
+        "deptTime": "2015-12-21T00:40:00.000",
+        "arrTime": "2015-12-21T02:50:00.000",
+        "logo": "/images/logo1.jpg"
     }, {
         "price": "273.00",
         "code": "AI-205",
-        "origin": "Melbourne",
-        "destination": "Sunshine Coast",
-        "deptTime": "2015-12-21T07:00:00.000Z",
-        "arrTime": "2015-12-21T09:10:00.000Z"
+        "origin": "MEL",
+        "destination": "SSC",
+        "deptTime": "2015-12-21T07:00:00.000",
+        "arrTime": "2015-12-21T09:10:00.000",
+        "logo": "/images/logo1.jpg"
     }, {
         "price": "273.00",
         "code": "AI-205",
-        "origin": "Melbourne",
-        "destination": "Sunshine Coast",
-        "deptTime": "2015-12-21T20:00:00.000Z",
-        "arrTime": "2015-12-21T22:10:00.000Z"
+        "origin": "MEL",
+        "destination": "SSC",
+        "deptTime": "2015-12-21T10:00:00.000",
+        "arrTime": "2015-12-21T12:10:00.000",
+        "logo": "/images/logo1.jpg"
     }, {
         "price": "189.00",
-        "code": "AI-202",
-        "origin": "Sunshine Coast",
-        "destination": "Melbourne",
-        "deptTime": "2015-12-21T07:00:00.000Z",
-        "arrTime": "2015-12-21T09:10:00.000Z"
+        "code": "Z-202",
+        "origin": "SSC",
+        "destination": "MEL",
+        "deptTime": "2015-12-21T00:00:00.000",
+        "arrTime": "2015-12-21T02:10:00.000",
+        "logo": "/images/logo2.jpg"
     }, {
         "price": "180.50",
-        "code": "AI-202",
-        "origin": "Sunshine Coast",
-        "destination": "Melbourne",
-        "deptTime": "2015-12-21T07:00:00.000Z",
-        "arrTime": "2015-12-21T09:10:00.000Z"
+        "code": "Z-202",
+        "origin": "SSC",
+        "destination": "MEL",
+        "deptTime": "2015-12-21T07:00:00.000",
+        "arrTime": "2015-12-21T09:10:00.000",
+        "logo": "/images/logo2.jpg"
     }, {
         "price": "180.50",
-        "code": "AI-202",
-        "origin": "Sunshine Coast",
-        "destination": "Melbourne",
-        "deptTime": "2015-12-21T20:00:00.000Z",
-        "arrTime": "2015-12-21T22:10:00.000Z"
+        "code": "Z-202",
+        "origin": "SSC",
+        "destination": "MEL",
+        "deptTime": "2015-12-21T10:00:00.000",
+        "arrTime": "2015-12-21T12:10:00.000",
+        "logo": "/images/logo2.jpg"
     }, {
         "price": "190.00",
         "code": "AI-201",
-        "origin": "Sydney",
-        "destination": "Melbourne",
-        "deptTime": "2015-12-21T07:00:00.000Z",
-        "arrTime": "2015-12-21T09:10:00.000Z"
+        "origin": "SYD",
+        "destination": "MEL",
+        "deptTime": "2015-12-21T00:00:00.000",
+        "arrTime": "2015-12-21T02:10:00.000",
+        "logo": "/images/logo1.jpg"
     }, {
         "price": "199.50",
         "code": "AI-201",
-        "origin": "Sydney",
-        "destination": "Melbourne",
-        "deptTime": "2015-12-21T07:00:00.000Z",
-        "arrTime": "2015-12-21T09:10:00.000Z"
+        "origin": "SYD",
+        "destination": "MEL",
+        "deptTime": "2015-12-21T05:00:00.000",
+        "arrTime": "2015-12-21T07:10:00.000",
+        "logo": "/images/logo1.jpg"
     }, {
         "price": "199.50",
         "code": "AI-201",
-        "origin": "Sydney",
-        "destination": "Melbourne",
-        "deptTime": "2015-12-21T20:00:00.000Z",
-        "arrTime": "2015-12-21T22:10:00.000Z"        
+        "origin": "SYD",
+        "destination": "MEL",
+        "deptTime": "2015-12-21T10:00:00.000",
+        "arrTime": "2015-12-21T12:10:00.000",
+        "logo": "/images/logo1.jpg"
     }]
 }
