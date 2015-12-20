@@ -43,11 +43,14 @@
     "test": "jest"
   },
   "jest": {
-    "scriptPreprocessor": "<rootDir>/preprocessor.js",
-    "unmockedModulePathPatterns": [
-      "<rootDir>/node_modules/react"
-    ]
-  },
+     "scriptPreprocessor": "<rootDir>/preprocessor.js",
+     "unmockedModulePathPatterns": [
+       "<rootDir>/node_modules/react",
+       "<rootDir>/node_modules/fbjs",
+       "<rootDir>/node_modules/react-dom",
+       "<rootDir>/node_modules/react-addons-test-utils"
+     ]
+   },
   "browserify": {
     "transform": [
       "browserify-shim",

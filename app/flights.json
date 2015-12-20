@@ -56,14 +56,6 @@
     "arrTime": "2015-12-22T02:10:00.000",
     "logo": "/images/logo1.jpg"
     }, {
-    "price": "121.00",
-    "code": "Z-203",
-    "origin": "MEL",
-    "destination": "SYD",
-    "deptTime": "2015-12-22T02:00:00.000",
-    "arrTime": "2015-12-22T04:15:00.000",
-    "logo": "/images/logo2.jpg"
-    }, {
     "price": "361.00",
     "code": "AI-204",
     "origin": "MEL",
@@ -120,14 +112,6 @@
       "arrTime": "2015-12-23T07:15:00.000",
       "logo": "/images/logo1.jpg"
       }, {
-      "price": "194.50",
-      "code": "AI-202",
-      "origin": "MEL",
-      "destination": "SYD",
-      "deptTime": "2015-12-23T06:00:00.000",
-      "arrTime": "2015-12-23T08:10:00.000",
-      "logo": "/images/logo1.jpg"
-      }, {
       "price": "221.00",
       "code": "Z-203",
       "origin": "MEL",
@@ -151,14 +135,6 @@
         "deptTime": "2015-12-24T00:00:00.000",
         "arrTime": "2015-12-24T02:10:00.000",
         "logo": "/images/logo1.jpg"
-        }, {
-        "price": "121.00",
-        "code": "Z-203",
-        "origin": "MEL",
-        "destination": "SYD",
-        "deptTime": "2015-12-24T02:00:00.000",
-        "arrTime": "2015-12-24T04:15:00.000",
-        "logo": "/images/logo2.jpg"
         }, {
         "price": "361.00",
         "code": "AI-204",
