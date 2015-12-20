@@ -45,7 +45,7 @@ var FlightSearchBar = React.createClass({
     },
     render: function() {
         return (
-          <div className="search-wrapper col-xs-12 col-sm-4">
+          <div className="search-wrapper col-xs-12 col-sm-4" role="search">
               <div id="one-way">
                     <div className="form-group">
                         <label htmlFor="ow-flight-from">From:</label>

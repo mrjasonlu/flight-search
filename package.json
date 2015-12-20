@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "dependencies": {
     "moment": "^2.10.6",
-    "react-datepicker": "^0.17.0"
+    "react-datepicker": "^0.17.0",
+    "react-slider": "^0.6.0"
   },
   "devDependencies": {
     "browserify": "latest",
@@ -43,14 +44,14 @@
     "test": "jest"
   },
   "jest": {
-     "scriptPreprocessor": "<rootDir>/preprocessor.js",
-     "unmockedModulePathPatterns": [
-       "<rootDir>/node_modules/react",
-       "<rootDir>/node_modules/fbjs",
-       "<rootDir>/node_modules/react-dom",
-       "<rootDir>/node_modules/react-addons-test-utils"
-     ]
-   },
+    "scriptPreprocessor": "<rootDir>/preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react",
+      "<rootDir>/node_modules/fbjs",
+      "<rootDir>/node_modules/react-dom",
+      "<rootDir>/node_modules/react-addons-test-utils"
+    ]
+  },
   "browserify": {
     "transform": [
       "browserify-shim",
